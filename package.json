@@ -1,0 +1,46 @@
+{
+  "bundleDependencies": false,
+  "componentConfig": {
+    "name": "axios",
+    "title": "demo component",
+    "categories": []
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.0",
+    "prop-types": "^15.5.8",
+    "qs": "^6.7.0",
+    "react-axios": "^2.0.3"
+  },
+  "deprecated": false,
+  "description": "React-Axios",
+  "devDependencies": {
+    "ice-plugin-component": "^0.1.1",
+    "ice-plugin-fusion": "^0.1.4",
+    "ice-scripts": "^2.0.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "files": [
+    "demo/",
+    "lib/",
+    "build/"
+  ],
+  "homepage": "https://unpkg.com/@sichem/react-axios@1.0.6/build/index.html",
+  "keywords": [
+    "axios",
+    "react",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "@sichem/react-axios",
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "scripts": {
+    "build": "ice-scripts build",
+    "prepublishOnly": "npm run build",
+    "start": "ice-scripts dev"
+  },
+  "version": "1.0.6"
+}
